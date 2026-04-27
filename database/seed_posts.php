@@ -30,7 +30,7 @@ $stmtRel = $pdo->prepare("
     VALUES (?, ?)
 ");
 
-for ($i = 1; $i <= 10; $i++) {
+for ($i = 1; $i <= 50; $i++) {
 
     $title = "Post $i";
     $description = "Description of post $i";
